@@ -9,7 +9,7 @@
     "build": "webpack",
     "build:test": "npm run build && npm run test",
     "prepublish": "npm run build:test",
-    "test": "karma start karma.conf.js --browsers ChromeHeadless --single-run",
+    "test": "karma start karma.conf.js --browsers Chrome --single-run",
     "test:debug": "karma start karma.conf.js --browsers Chrome",
     "cover": "open coverage/lcov-report/index.html",
     "eslint": "eslint src --ext .js",
